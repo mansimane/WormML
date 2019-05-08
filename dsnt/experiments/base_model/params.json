@@ -1,0 +1,29 @@
+{
+    "learning_rate": 5e-4,
+    "batch_size": 64,
+    "num_epochs": 600,
+    "TAIL": false,
+
+    "img_h": 150,
+    "img_w": 150,
+    "radius": 4,
+    "dataset": "wormml_v2",
+    "task": "headtail",
+    "addional_loss":  false,
+    "network":  "vgg16",
+    "num_channels": 16,
+    "use_batch_norm": true,
+    "bn_momentum": 0.9,
+    "alpha0": 0.2,
+    "alpha1": 0.1,
+    "alpha2": 0.05,
+    "alpha3": 0.15,
+    "alpha4": 0.3,
+
+    "random_seed": 0,
+
+    "use_random_flip": true,
+
+    "num_parallel_calls": 1,
+    "save_summary_steps": 2
+}
